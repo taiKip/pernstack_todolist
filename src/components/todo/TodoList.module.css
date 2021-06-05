@@ -1,0 +1,8 @@
+.todoList{
+   text-align: center;
+box-sizing: border-box;
+width: 100%;
+list-style-type: none;
+padding-left: 0;
+
+}

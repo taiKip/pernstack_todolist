@@ -1,0 +1,37 @@
+
+.inputForm{
+    display: flex;
+  flex-direction: column; 
+    justify-content: center;
+    gap:0.2rem;
+
+}
+.inputForm input{
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: var(--borderRadius);
+    border: 1px solid rgb(226, 209, 176);
+box-sizing: border-box;
+    font-size: 1.3em;
+}
+.inputForm button{
+    padding: 10px 20px;
+    background: rgb(150, 75, 14);
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.inputForm button:hover{
+    background: rgb(231, 128, 9);
+}
+
+@media screen and (min-width:600px) {
+    .inputForm{
+      
+      flex-direction: row;
+    
+    }
+}

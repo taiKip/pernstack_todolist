@@ -1,0 +1,23 @@
+.edit{
+ display:flex;
+ flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+.edit textarea{
+    padding: 5px 10px;
+    border-radius: var(--borderRadius);
+    border: var(--border);
+}
+.edit button{
+    padding: 10px;
+    font-size: 1.2em;
+    background: rgb(188, 228, 45);
+    border: var(--border);
+    color: white;
+    border-radius: var(--borderRadius);
+}
+.edit button:hover{
+    background: greenyellow;
+    color: indianred;
+}

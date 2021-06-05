@@ -1,0 +1,38 @@
+.listItem{
+    list-style: none;
+   border: 1px solid rgb(226, 209, 176);
+  display: flex;
+ flex-direction: column;
+  margin: 0.5rem auto;
+   box-sizing: border-box;
+   border-radius: var(--borderRadius);
+   font-family: inherit;
+}
+.listItem span{
+    padding: 10px 5px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ box-sizing: border-box;
+ gap: 0.5rem;
+   
+}
+.listItem button{
+    padding: 5px ;
+    border-radius: var(--borderRadius);
+    border: var(--border);
+    color: white;
+    cursor: pointer;
+    
+}
+.edit{
+    width: 100%;
+    background:rgb(172, 118, 172) ;
+}
+.delete{
+    width: 100%;
+    background: rgb(206, 73, 73);
+}
+.delete:hover{
+    background: rgb(255, 3, 3);
+}
